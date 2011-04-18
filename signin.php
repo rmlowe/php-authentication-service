@@ -22,7 +22,7 @@
 		</tr>
 	</table>
 	<form action="login-handler.php" method="POST">
-		<input name="salt" type="hidden" value="<?php $salt ?>">
+		<input name="salt" type="hidden" value="<?php echo $salt ?>">
 		<p>
 			<label>Username: <input name="username" type="text"> </label>
 		</p>

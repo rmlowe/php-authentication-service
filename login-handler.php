@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 $salt = $_REQUEST['salt'];
 $username = $_REQUEST['username'];
 $password = $_REQUEST['password'];

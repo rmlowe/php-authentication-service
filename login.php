@@ -34,7 +34,7 @@
       <form class="form-signin" action="handle_login.php" method="post">
         <h2 class="form-signin-heading">Please sign in</h2>
 				<p>Note: since this is just a demonstration of the delegated authentication protocol, the password is ignored.</p>
-				<input name="salt" type="hidden" value="<?php echo $salt ?>">
+				<input name="target" type="hidden" value="<?php echo $_REQUEST['target'] ?>">
         <label for="inputText" class="sr-only">User ID</label>
         <input name="userId" type="text" id="inputText" class="form-control" placeholder="User ID" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
